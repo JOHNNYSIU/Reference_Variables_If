@@ -1,4 +1,4 @@
-float Balll = 1;
+  float Balll = 1;
  float circleX;
  float speed1;
 
