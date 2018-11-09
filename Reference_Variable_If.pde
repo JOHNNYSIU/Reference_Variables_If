@@ -1,22 +1,55 @@
-float circleX;
-float circleY;
-float Moth;
+float Balll = 1;
+ float circleX;
+ float speed1;
+
+float Chicken = 1;
+ float circleY;
+ float speed2;
+ 
+float Diamond = 1;
+ float Bronze;
+ float speed3;
+
 
 void setup() {
-  size(500,400);
-  circleX = 0 ;
-  circleY = 0 ;
- 
+  size(600,600);
 }
 void draw() {
   background(255);
-  fill(0);
-  ellipse(circleX,180,48,48);
-  ellipse(200,circleY,48,48);
-  ellipse(300,Moth,48,48);
-  circleX = circleX + random(0,10);
-  circleY = circleY + random(0,5);
-  Moth= Moth + random(0,20);
-
-}
+  fill(255,0,0);
+  triangle(Balll,300,200,Chicken,Diamond,Diamond);
+  
+  
+  if(Balll<10){
+   speed1=5;
+  }
+  
+  if(Balll>600){
+  speed1=-5;
+  }
+   
+  
+  
+ Balll=Balll+speed1;
+ 
+  if(Chicken<10){
+    speed2=5;
+  }
+  if(Chicken>600){
+    speed2=-5;
+  }
+ Chicken=Chicken+speed2;
+  
+  
+ 
+  
+  if(Diamond<10){
+    speed3=5;
+  }
+  if(Diamond>600){
+    speed3=-5;
+  }
+  Diamond=Diamond+speed3;
+  }
+    
  
