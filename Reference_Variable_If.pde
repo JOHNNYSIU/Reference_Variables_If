@@ -52,4 +52,4 @@ void draw() {
   Diamond=Diamond+speed3;
   }
    }
- 
+ //lolllllllllllllllll
