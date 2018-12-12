@@ -51,5 +51,5 @@ void draw() {
   }
   Diamond=Diamond+speed3;
   }
-    
+   }
  
